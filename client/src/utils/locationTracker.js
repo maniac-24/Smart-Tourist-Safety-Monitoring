@@ -12,6 +12,22 @@ const updateLocation = async (lat, lng) => {
       },
       body: JSON.stringify({ lat, lng })
     });
+
+    // Update safety score after each location update
+    const scoreRes = await fetch(`${BACKEND_URL}/api/v2/userdata/updatesafetyscore`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "accessToken": localStorage.getItem("accessToken")
+      },
+      body: JSON.stringify({})
+    });
+    const scoreData = await scoreRes.json();
+    if (scoreData.status) {
+      // Store in localStorage so dashboard can read it
+      localStorage.setItem("safetyScore", scoreData.safetyScore);
+      localStorage.setItem("touristStatus", scoreData.touristStatus);
+    }
   } catch (err) {
     console.log("Location update failed:", err);
   }

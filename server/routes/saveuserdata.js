@@ -97,4 +97,48 @@ UserRouter.post("/fethdatausename", fecthuer, async (req, res) => {
   }
 });
 
+// Calculate and update safety score
+UserRouter.post("/updatesafetyscore", fecthuer, async (req, res) => {
+  try {
+    const userid = req.user;
+    const user = await User.findById(userid);
+    
+    let score = 100;
+
+    // Deduct if no location for more than 10 minutes
+    if (user.location?.lastUpdated) {
+      const minutesSinceUpdate = (Date.now() - new Date(user.location.lastUpdated)) / 60000;
+      if (minutesSinceUpdate > 10) score -= 20;
+      if (minutesSinceUpdate > 30) score -= 30;
+    } else {
+      score -= 10;
+    }
+
+    // High risk zones (check proximity)
+    const HIGH_RISK = [
+      { lat: 26.1445, lng: 91.7362 },
+      { lat: 25.3176, lng: 82.9739 },
+    ];
+
+    if (user.location?.lat && user.location?.lng) {
+      for (const zone of HIGH_RISK) {
+        const dist = Math.sqrt(
+          Math.pow(user.location.lat - zone.lat, 2) +
+          Math.pow(user.location.lng - zone.lng, 2)
+        );
+        if (dist < 0.5) { score -= 30; break; }
+      }
+    }
+
+    score = Math.max(0, score);
+    const status = score >= 70 ? "safe" : score >= 40 ? "warning" : "sos";
+
+    await User.findByIdAndUpdate(userid, { safetyScore: score, status });
+    return res.status(200).json({ status: true, safetyScore: score, touristStatus: status });
+  } catch (error) {
+    console.log(error);
+    return res.status(500).json({ status: false, error: "Failed to update safety score" });
+  }
+});
+
 export default UserRouter;
