@@ -10,6 +10,7 @@ import TouristPlatformFooter from "./Footer.jsx";
 import BestStayHotels from "./HotlesList.jsx";
 import TopDestinations from './Topdestonation.jsx';
 import { startTracking, stopTracking } from '../utils/locationTracker.js';
+import GeofenceAlert from '../components/GeofenceAlert.jsx';
 
 const DashboardPage = () => {
   const handleclick = (id) => {
@@ -154,6 +155,7 @@ const DashboardPage = () => {
 
     <main className="w-full min-h-screen bg-gray-50">
       <Navbar />
+      <GeofenceAlert />
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center text-white">
         {/* Background Image */}
