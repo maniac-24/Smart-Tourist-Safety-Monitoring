@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect, useRef } from 'react';
 import tajmahal from "../assets/tajmahal.png";
 import destinations from "../data/destinations.json";
@@ -10,6 +9,8 @@ import { useUserName } from '../contexts/usenamcontext.jsx';
 import TouristPlatformFooter from "./Footer.jsx";
 import BestStayHotels from "./HotlesList.jsx";
 import TopDestinations from './Topdestonation.jsx';
+import { startTracking, stopTracking } from '../utils/locationTracker.js';
+
 const DashboardPage = () => {
   const handleclick = (id) => {
     document.querySelector(id)?.scrollIntoView({
@@ -50,6 +51,7 @@ const DashboardPage = () => {
     return () => observer.disconnect();
   }, []);
   useEffect(() => {
+    startTracking();
 
     const fecthdata = async () => {
       setMainloder(true)
@@ -93,7 +95,7 @@ const DashboardPage = () => {
     } else if (countdown === 0) {
       handleConfirmEmergency();
     }
-    return () => clearTimeout(timer);
+    return () => { clearTimeout(timer); stopTracking(); };
   }, [countdown]);
 
   const handleEmergencyClick = async () => {

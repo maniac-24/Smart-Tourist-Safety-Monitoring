@@ -1,21 +1,19 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom"
+import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import './index.css'
 import App from './App.jsx'
 import LoginPage from './pages/LoginPage.jsx'
 import OfficerTouristRegistration from "./components/OffisirRgister.jsx"
 import { ProtectRoute, AuthenticatedUserRoute } from "./utils/userAuthenticated.jsx"
-
 import DashboardPage from './pages/DashboardPage.jsx'
-import GovernmentVerificationPage from './pages/VerifyPage.jsx'
 import IssuesDashboard from './pages/IssuesDashboard.jsx'
 import FeedBack from './components/FeedBack.jsx'
-import Feedback from './components/FeedBack.jsx'
 import KashmirDetailPage from './components/GiveFeedBack.jsx'
 import TourGuideForm from './pages/TourGuideForm.jsx'
 import Conversion from './pages/Conversion.jsx'
 import UserNameContextProvider from './contexts/usenamcontext.jsx'
+import PoliceDashboard from './pages/PoliceDashboard.jsx'
 
 const router = createBrowserRouter([
   {
@@ -32,9 +30,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/admin",
-        element: (
-          <OfficerTouristRegistration />
-        )
+        element: <OfficerTouristRegistration />
       },
       {
         path: "/dashboard",
@@ -46,39 +42,27 @@ const router = createBrowserRouter([
       },
       {
         path: "/allturist",
-        element: (
-          <IssuesDashboard />
-        )
-      },
-      {
-        path: "/:id",
-        element: (
-          <GovernmentVerificationPage />
-        )
+        element: <IssuesDashboard />
       },
       {
         path: "/feedback",
-        element: (
-          <Feedback />
-        )
+        element: <FeedBack />
       },
       {
         path: "/feedback/:id",
-        element: (
-          <KashmirDetailPage />
-        )
+        element: <KashmirDetailPage />
       },
       {
         path: "/tourguide",
-        element: (
-          <TourGuideForm />
-        )
+        element: <TourGuideForm />
       },
       {
         path: "/conversion",
-        element: (
-          <Conversion />
-        )
+        element: <Conversion />
+      },
+      {
+        path: "/police",
+        element: <PoliceDashboard />
       },
     ]
   }
