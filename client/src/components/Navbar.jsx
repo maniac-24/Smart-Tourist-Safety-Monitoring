@@ -3,6 +3,8 @@ import { MdExitToApp } from 'react-icons/md';
 import userStore from "../store/userStore.js"
 import { Link, useNavigate } from 'react-router-dom';
 import { useUserName } from '../contexts/usenamcontext.jsx';
+import LanguageSelector from './LanguageSelector.jsx';
+import { useTranslation } from 'react-i18next';
 
 const ShieldVirusIcon = (props) => (
     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
@@ -67,6 +69,7 @@ const Navbar = () => {
     const [UserName, setUserName] = useUserName();
     const [safetyScore, setSafetyScore] = useState(100);
     const [touristStatus, setTouristStatus] = useState("safe");
+    const { t } = useTranslation();
 
     const logout = async () => {
         await logOut();
@@ -128,10 +131,11 @@ const Navbar = () => {
             </div>
 
             {/* Center - Nav Links */}
-            <div className='flex gap-4'>
-                <Link to="/"><div>Home</div></Link>
-                <Link to="/feedback"><div>Feedback</div></Link>
-                <Link to="/conversion"><div>Post</div></Link>
+            <div className='flex gap-4 items-center'>
+                <Link to="/"><div>{t('home')}</div></Link>
+                <Link to="/feedback"><div>{t('feedback')}</div></Link>
+                <Link to="/conversion"><div>{t('post')}</div></Link>
+                <LanguageSelector />
             </div>
 
             {/* Right side - Safety Score + Profile */}
