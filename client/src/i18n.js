@@ -158,32 +158,6 @@ const resources = {
       languages: "భాషలు",
     }
   },
-  mr: {
-    translation: {
-      welcome: "स्वागत आहे",
-      discover: "अतुल्य भारत शोधा",
-      explore: "गंतव्ये शोधा",
-      emergency: "आपत्कालीन SOS",
-      home: "मुख्यपृष्ठ",
-      feedback: "अभिप्राय",
-      post: "पोस्ट",
-      safety: "सुरक्षा",
-      safe: "सुरक्षित",
-      warning: "इशारा",
-      sos: "आपत्काल",
-      logout: "लॉग आउट",
-      topDestinations: "भारतातील शीर्ष गंतव्ये",
-      hotels: "भारतातील सर्वोत्तम हॉटेल्स",
-      tourGuides: "व्यावसायिक टूर गाइड",
-      signIn: "साइन इन करा",
-      yourName: "तुमचे नाव",
-      smartID: "स्मार्ट आयडी",
-      enterName: "तुमचे पूर्ण नाव प्रविष्ट करा",
-      states: "राज्ये आणि केंद्रशासित प्रदेश",
-      people: "लोक",
-      languages: "भाषा",
-    }
-  },
 };
 
 i18n
