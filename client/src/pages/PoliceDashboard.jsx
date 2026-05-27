@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { MapContainer, TileLayer, Marker, Popup, Circle, useMap } from "react-leaflet";
+import { useNavigate } from "react-router-dom";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 
@@ -40,6 +41,8 @@ const MapController = ({ center }) => {
 };
 
 export default function PoliceDashboard() {
+  const navigate = useNavigate();
+  const [officer, setOfficer] = useState(null);
   const [tourists, setTourists] = useState([]);
   const [loading, setLoading] = useState(true);
   const [selectedTourist, setSelectedTourist] = useState(null);
@@ -49,6 +52,16 @@ export default function PoliceDashboard() {
   const [searchQuery, setSearchQuery] = useState("");
   const [stats, setStats] = useState({ total: 0, safe: 0, warning: 0, sos: 0 });
   const [alerts, setAlerts] = useState([]);
+
+  // Police auth check
+  useEffect(() => {
+    const auth = localStorage.getItem("policeAuth");
+    if (!auth) {
+      navigate("/police-login");
+      return;
+    }
+    setOfficer(JSON.parse(auth));
+  }, []);
 
   useEffect(() => {
     const fetchTourists = async () => {
@@ -77,7 +90,6 @@ export default function PoliceDashboard() {
             warning: mapped.filter(t => t.status === "warning").length,
             sos: mapped.filter(t => t.status === "sos").length,
           });
-          // Generate alerts for non-safe tourists
           const newAlerts = mapped
             .filter(t => t.status !== "safe")
             .map((t, i) => ({
@@ -138,6 +150,10 @@ AUTO-GENERATED e-FIR
 ====================
 Date: ${new Date().toLocaleDateString()}
 Time: ${new Date().toLocaleTimeString()}
+Officer: ${officer?.name || "Auto-assigned"}
+Officer ID: ${officer?.id || "N/A"}
+District: ${officer?.district || "N/A"}
+
 Tourist Name: ${tourist.name}
 Smart ID: ${tourist.smartID}
 Nationality: ${tourist.nationality}
@@ -147,7 +163,7 @@ Contact: ${tourist.phone}
 Last Seen: ${tourist.lastSeen}
 
 Incident Type: Tourist Safety Alert
-Assigned Officer: Auto-assigned
+Assigned Officer: ${officer?.name || "Auto-assigned"}
 Status: OPEN
     `.trim();
     const blob = new Blob([fir], { type: "text/plain" });
@@ -175,6 +191,22 @@ Status: OPEN
               <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
               <span className="text-green-400 text-xs">LIVE</span>
             </div>
+            {officer && (
+              <div className="text-right">
+                <p className="text-xs text-white font-bold">{officer.name}</p>
+                <p className="text-xs text-gray-400">{officer.rank} — {officer.district}</p>
+              </div>
+            )}
+            <button
+              onClick={() => {
+                localStorage.removeItem("policeAuth");
+                localStorage.setItem("lastLogoutType", "police");
+                navigate("/");
+              }}
+              className="text-xs bg-red-800 hover:bg-red-700 text-white px-3 py-1 rounded transition-all"
+            >
+              🚪 Logout
+            </button>
             <span className="text-gray-400 text-xs">{new Date().toLocaleString()}</span>
           </div>
         </div>
@@ -201,7 +233,7 @@ Status: OPEN
       </div>
 
       <div className="flex h-[calc(100vh-180px)]">
-        {/* Left Panel - Tourist List */}
+        {/* Left Panel */}
         <div className="w-80 bg-gray-900 border-r border-gray-700 flex flex-col">
           <div className="p-3 border-b border-gray-700">
             <input
@@ -230,7 +262,6 @@ Status: OPEN
             </div>
           </div>
 
-          {/* Tourist List */}
           <div className="flex-1 overflow-y-auto">
             {loading ? (
               <div className="flex items-center justify-center h-32">
@@ -238,9 +269,7 @@ Status: OPEN
                 <span className="ml-2 text-gray-400 text-sm">Loading tourists...</span>
               </div>
             ) : filteredTourists.length === 0 ? (
-              <div className="p-4 text-center text-gray-500 text-sm">
-                No tourists found
-              </div>
+              <div className="p-4 text-center text-gray-500 text-sm">No tourists found</div>
             ) : (
               filteredTourists.map(tourist => (
                 <div
@@ -275,7 +304,6 @@ Status: OPEN
             )}
           </div>
 
-          {/* Alerts Panel */}
           <div className="border-t border-gray-700 p-3">
             <p className="text-xs text-gray-500 tracking-widest mb-2">RECENT ALERTS</p>
             <div className="space-y-2 max-h-32 overflow-y-auto">
@@ -293,7 +321,7 @@ Status: OPEN
           </div>
         </div>
 
-        {/* Main Map Area */}
+        {/* Map */}
         <div className="flex-1 relative">
           <div className="absolute top-3 right-3 z-[1000] flex flex-col gap-2">
             <button
@@ -321,17 +349,9 @@ Status: OPEN
             </div>
           </div>
 
-          <MapContainer
-            center={mapCenter}
-            zoom={5}
-            style={{ height: "100%", width: "100%" }}
-            className="z-0"
-          >
+          <MapContainer center={mapCenter} zoom={5} style={{ height: "100%", width: "100%" }} className="z-0">
             <MapController center={mapCenter} />
-            <TileLayer
-              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-              attribution='&copy; OpenStreetMap contributors'
-            />
+            <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" attribution='&copy; OpenStreetMap contributors' />
 
             {showZones && HIGH_RISK_ZONES.map(zone => (
               <Circle
@@ -341,9 +361,7 @@ Status: OPEN
                 pathOptions={{
                   color: zone.risk === "high" ? "#ef4444" : "#f59e0b",
                   fillColor: zone.risk === "high" ? "#ef4444" : "#f59e0b",
-                  fillOpacity: 0.15,
-                  weight: 2,
-                  dashArray: "5,5"
+                  fillOpacity: 0.15, weight: 2, dashArray: "5,5"
                 }}
               >
                 <Popup>
@@ -392,7 +410,7 @@ Status: OPEN
           </MapContainer>
         </div>
 
-        {/* Right Panel - Selected Tourist Detail */}
+        {/* Right Panel */}
         {selectedTourist && (
           <div className="w-64 bg-gray-900 border-l border-gray-700 p-4 overflow-y-auto">
             <div className="flex items-center justify-between mb-4">

@@ -1,9 +1,11 @@
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { MapPin, User } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 import destinations from "../data/destinations.json";
 const TopDestinations = () => {
   const [visibleCards, setVisibleCards] = useState(new Set());
   const cardRefs = useRef([]);
+  const navigate = useNavigate();
 
   // Intersection Observer for scroll animations
   useEffect(() => {
@@ -16,9 +18,9 @@ const TopDestinations = () => {
           }
         });
       },
-      { 
-        threshold: 0.1, 
-        rootMargin: '0px 0px -50px 0px' 
+      {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
       }
     );
 
@@ -41,11 +43,11 @@ const TopDestinations = () => {
             key={dest.id}
             ref={el => cardRefs.current[index] = el}
             data-card-id={dest.id}
-            className={`bg-gray-800 rounded-2xl shadow-md overflow-hidden group hover:shadow-2xl hover:-translate-y-2 transition-all duration-700 transform ${
-              visibleCards.has(dest.id) 
-                ? 'opacity-100 translate-y-0' 
-                : 'opacity-0 translate-y-8'
-            }`}
+            onClick={() => navigate(`/destination/${dest.id}`)}
+            className={`bg-gray-800 rounded-2xl shadow-md overflow-hidden group hover:shadow-2xl hover:-translate-y-2 transition-all duration-700 transform cursor-pointer ${visibleCards.has(dest.id)
+              ? 'opacity-100 translate-y-0'
+              : 'opacity-0 translate-y-8'
+              }`}
             style={{
               transitionDelay: visibleCards.has(dest.id) ? `${index * 150}ms` : '0ms'
             }}

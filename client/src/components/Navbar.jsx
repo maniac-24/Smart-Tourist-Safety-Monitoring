@@ -72,6 +72,7 @@ const Navbar = () => {
     const { t } = useTranslation();
 
     const logout = async () => {
+        localStorage.setItem("lastLogoutType", "tourist");
         await logOut();
         navigate("/");
     }
@@ -135,11 +136,6 @@ const Navbar = () => {
                 <Link to="/"><div>{t('home')}</div></Link>
                 <Link to="/feedback"><div>{t('feedback')}</div></Link>
                 <Link to="/conversion"><div>{t('post')}</div></Link>
-                <Link to="/police">
-                    <div className="flex items-center gap-1 px-3 py-1 bg-blue-600/30 border border-blue-500/50 rounded-full text-blue-300 hover:bg-blue-600/50 transition-all text-sm">
-                        🛡️ Police
-                    </div>
-                </Link>
                 <LanguageSelector />
             </div>
 

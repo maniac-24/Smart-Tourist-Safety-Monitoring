@@ -15,6 +15,8 @@ import TourGuideForm from './pages/TourGuideForm.jsx'
 import Conversion from './pages/Conversion.jsx'
 import UserNameContextProvider from './contexts/usenamcontext.jsx'
 import PoliceDashboard from './pages/PoliceDashboard.jsx'
+import PoliceLogin from './pages/PoliceLogin.jsx'
+import DestinationDetailPage from './pages/DestinationDetailPage.jsx'
 
 const router = createBrowserRouter([
   {
@@ -50,6 +52,10 @@ const router = createBrowserRouter([
         element: <FeedBack />
       },
       {
+        path: "/police-login",
+        element: <PoliceLogin />
+      },
+      {
         path: "/feedback/:id",
         element: <KashmirDetailPage />
       },
@@ -64,6 +70,10 @@ const router = createBrowserRouter([
       {
         path: "/police",
         element: <PoliceDashboard />
+      },
+      {
+        path: "/destination/:id",
+        element: <DestinationDetailPage />
       },
     ]
   }

@@ -40,7 +40,7 @@ const BestStayHotels = () => {
       id: 4,
       name: "Aman-i-Khas",
       location: "Ranthambore, Rajasthan",
-      image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop&crop=center",
+      image: "https://i.ytimg.com/vi/qkgstBqb-Js/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLA6CKVAyB0fRqAYY-GkSeAPeo8SAw",
       description: "Luxury tented camp near Ranthambore National Park, perfect for wildlife enthusiasts seeking comfort.",
       rating: 4,
       priceRange: "₹40,000 - ₹80,000",
