@@ -17,6 +17,7 @@ import UserNameContextProvider from './contexts/usenamcontext.jsx'
 import PoliceDashboard from './pages/PoliceDashboard.jsx'
 import PoliceLogin from './pages/PoliceLogin.jsx'
 import DestinationDetailPage from './pages/DestinationDetailPage.jsx'
+import NorthEastDestinations from './pages/NorthEastDestinations.jsx'
 
 const router = createBrowserRouter([
   {
@@ -74,6 +75,10 @@ const router = createBrowserRouter([
       {
         path: "/destination/:id",
         element: <DestinationDetailPage />
+      },
+      {
+        path: "/northeast-destinations",
+        element: <NorthEastDestinations />
       },
     ]
   }

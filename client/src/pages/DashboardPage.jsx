@@ -313,6 +313,18 @@ const DashboardPage = () => {
 
       {/* Top Destinations Section */}
       <TopDestinations/>
+      
+      {/* More Destinations Button */}
+      <div className="py-12 px-6 mx-auto bg-gray-900 text-center">
+        <button
+          onClick={() => navigate("/northeast-destinations")}
+          className="bg-gradient-to-r from-green-600 to-teal-600 hover:from-green-700 hover:to-teal-700 text-white font-bold py-4 px-8 rounded-xl text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+        >
+          🌄 Explore More Destinations - North-East India
+        </button>
+        <p className="text-gray-400 mt-3 text-sm">Discover hidden gems of North-East India</p>
+      </div>
+
       <BestStayHotels />
       <TourGuideCard />
       <TouristPlatformFooter />
