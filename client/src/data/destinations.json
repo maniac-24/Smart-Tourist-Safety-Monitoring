@@ -51,7 +51,7 @@
     "id": 5,
     "name": "Varanasi Ghats",
     "subtitle": "Spiritual Hub",
-    "description": "Witness centuries-old rituals on the banks of the Ganges River in India’s holiest city.",
+    "description": "Witness centuries-old rituals on the banks of the Ganges River in India's holiest city.",
     "image": "https://images.unsplash.com/photo-1627938823193-fd13c1c867dd?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "temp": "29°C",
     "tags": [
@@ -87,12 +87,716 @@
     "id": 8,
     "name": "Mumbai Gateway of India",
     "subtitle": "Urban Icon",
-    "description": "Explore the iconic Gateway of India and Mumbai’s vibrant culture and lifestyle.",
+    "description": "Explore the iconic Gateway of India and Mumbai's vibrant culture and lifestyle.",
     "image": "https://s7ap1.scene7.com/is/image/incredibleindia/gateway-of-india-mumbai-maharashtra-2-attr-hero?qlt=82&ts=1742162842869",
     "temp": "31°C",
     "tags": [
       "Safety: Medium",
       "Budget per day: ₹3,858 (~$44)"
     ]
+  },
+  {
+    "id": 11,
+    "name": "Tawang",
+    "state": "Arunachal Pradesh",
+    "subtitle": "Himalayan Paradise",
+    "description": "Located at 10,000 feet in the Eastern Himalayas, known for snow-covered mountains, Buddhist monasteries, and breathtaking landscapes.",
+    "image": "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/07/be/fd/1a.jpg",
+    "temp": "5°C",
+    "tags": [
+      "Safety: High",
+      "Budget per day: ₹5,000 (~$60)"
+    ],
+    "safetyRating": {
+      "daytime": "9/10",
+      "nighttime": "7.5/10",
+      "overall": "8.5/10"
+    },
+    "precautions": [
+      "Carry warm clothes throughout the year",
+      "Be prepared for altitude-related issues",
+      "Check weather conditions before mountain travel",
+      "Roads may be affected by snowfall during winter"
+    ],
+    "budgetTable": [
+      {
+        "style": "Budget Traveller",
+        "min": "₹6,000 – ₹15,000",
+        "max": "₹25,000"
+      },
+      {
+        "style": "Normal Tourist",
+        "min": "₹25,000 – ₹80,000",
+        "max": "₹1,50,000"
+      },
+      {
+        "style": "Luxury Tourist",
+        "min": "₹2,00,000",
+        "max": "₹10,00,000+"
+      }
+    ],
+    "budgetIncludes": [
+      "Hotel stay",
+      "Food",
+      "Local transport",
+      "Sightseeing",
+      "Permit expenses"
+    ],
+    "activities": [
+      {
+        "name": "Local Sightseeing Taxi",
+        "price": "₹2,000 – ₹8,000"
+      },
+      {
+        "name": "Tawang Tour Package",
+        "price": "₹10,000 – ₹50,000"
+      },
+      {
+        "name": "Guide Charges",
+        "price": "₹500 – ₹3,000"
+      },
+      {
+        "name": "Adventure Activities",
+        "price": "₹1,000 – ₹10,000"
+      }
+    ],
+    "hotels": {
+      "budget": [
+        "Hotel Mon Valley",
+        "Hotel Tawang Heights",
+        "Yangzom Hotel"
+      ],
+      "midRange": [
+        "Hotel Gakyi Khang Zhang",
+        "Dolma Khangsar Guest House",
+        "Hotel Tawang Holiday"
+      ],
+      "luxury": [
+        "Vivanta Arunachal Pradesh Tawang",
+        "The Oak Retreat"
+      ]
+    },
+    "bestTime": [
+      "March to June → Pleasant weather and sightseeing",
+      "October to November → Clear mountain views",
+      "December to February → Snowfall season"
+    ],
+    "experiences": [
+      "Snow mountain sightseeing",
+      "Monastery visits",
+      "Himalayan road trips",
+      "Photography",
+      "Local Monpa culture",
+      "High-altitude lake visits"
+    ],
+    "morePlaces": [
+      "Tawang Monastery — Largest monastery in India",
+      "Sela Pass — Snow-covered mountain pass",
+      "Ziro Valley — Famous for scenic landscapes and Apatani culture",
+      "Bomdila — Himalayan hill station",
+      "Namdapha National Park — Rich biodiversity and wildlife",
+      "Dirang — Valley views and hot springs",
+      "Roing — Gateway to Eastern Arunachal"
+    ],
+    "recommendedDuration": "3–4 days for Tawang, 7–10 days for complete Arunachal Pradesh tour"
+  },
+  {
+    "id": 12,
+    "name": "Gangtok",
+    "state": "Sikkim",
+    "subtitle": "Mountain Capital",
+    "description": "Gateway to Sikkim's beautiful lakes, mountain passes, and monasteries. Known for clean environment and breathtaking views of Mount Kanchenjunga.",
+    "image": "https://lh7-rt.googleusercontent.com/docsz/AD_4nXddDBE9WGwjwEju5YcDLbMdOAeZHqlwv1n0injimENzQhiRdm2d4ZiofNDzU-FS5WDPfFzp7Up0KD30Tc2U0ndqYaFwtN3kiALh9IbqmS8Hax57OoAHJQPjNhW-xgaxl7Co65JZCg?key=icOI8u0ZLxczPTUYDDSMduah",
+    "temp": "15°C",
+    "tags": [
+      "Safety: Very High",
+      "Budget per day: ₹5,000 (~$60)"
+    ],
+    "safetyRating": {
+      "daytime": "9.5/10",
+      "nighttime": "8.5/10",
+      "overall": "9.2/10"
+    },
+    "precautions": [
+      "Carry warm clothes, especially during winter",
+      "Follow altitude guidelines while visiting high-altitude locations",
+      "Keep permits ready for restricted areas",
+      "Check weather forecasts before mountain travel",
+      "Avoid unnecessary travel during heavy rainfall and landslides"
+    ],
+    "budgetTable": [
+      {
+        "style": "Budget Traveller",
+        "min": "₹5,000 – ₹15,000",
+        "max": "₹25,000"
+      },
+      {
+        "style": "Normal Tourist",
+        "min": "₹20,000 – ₹80,000",
+        "max": "₹1,50,000"
+      },
+      {
+        "style": "Luxury Tourist",
+        "min": "₹2,00,000",
+        "max": "₹10,00,000+"
+      }
+    ],
+    "budgetIncludes": [
+      "Hotel stay",
+      "Food",
+      "Local transport",
+      "Sightseeing",
+      "Permit expenses"
+    ],
+    "activities": [
+      {
+        "name": "Local Sightseeing Taxi",
+        "price": "₹2,000 – ₹8,000"
+      },
+      {
+        "name": "Tsomgo Lake Tour",
+        "price": "₹1,500 – ₹5,000"
+      },
+      {
+        "name": "Nathula Pass Tour",
+        "price": "₹3,000 – ₹8,000"
+      },
+      {
+        "name": "Ropeway Ride",
+        "price": "₹150 – ₹500"
+      },
+      {
+        "name": "Guide Charges",
+        "price": "₹500 – ₹3,000"
+      },
+      {
+        "name": "Adventure Activities",
+        "price": "₹1,000 – ₹15,000"
+      }
+    ],
+    "hotels": {
+      "budget": [
+        "Hotel Tashi Delek",
+        "The Griffon's Nest",
+        "Hotel Sonam Delek",
+        "Hotel Kasturi",
+        "Hotel Renam"
+      ],
+      "midRange": [
+        "Summit Golden Crescent Resort",
+        "Lemon Tree Hotel Gangtok",
+        "Jain Group Hotel Royal Residency",
+        "Netuk House",
+        "Muscatel Grand Silk Route"
+      ],
+      "luxury": [
+        "Mayfair Spa Resort & Casino",
+        "The Elgin Nor-Khill",
+        "Vivanta Sikkim Pakyong",
+        "Taj Guras Kutir Resort & Spa",
+        "Sterling Gangtok Orange Village"
+      ]
+    },
+    "bestTime": [
+      "March to June → Pleasant weather and sightseeing",
+      "October to December → Clear Himalayan mountain views",
+      "January to February → Snowfall tourism",
+      "July to September → Monsoon season with lush greenery"
+    ],
+    "experiences": [
+      "Kanchenjunga mountain views",
+      "Monastery visits",
+      "Ropeway rides",
+      "Snow tourism",
+      "Yak rides",
+      "Adventure road trips",
+      "Photography",
+      "Local Sikkimese culture and cuisine"
+    ],
+    "morePlaces": [
+      "Tsomgo Lake — Glacial lake at 12,300 feet with yak rides",
+      "Nathula Pass — Historic India-China border pass",
+      "Yumthang Valley — Valley of Flowers with colorful blooms",
+      "Gurudongmar Lake — One of the highest lakes in the world at 17,800 feet",
+      "Pelling — Famous for Kanchenjunga views and Skywalk",
+      "Ravangla — Peaceful hill station with Buddha Park",
+      "Rumtek Monastery — Largest monastery in Sikkim"
+    ],
+    "recommendedDuration": "3–4 days for Gangtok, 7–10 days for complete Sikkim tour"
+  },
+  {
+    "id": 13,
+    "name": "Kohima",
+    "state": "Nagaland",
+    "subtitle": "Cultural Capital",
+    "description": "Cultural capital of Nagaland, surrounded by green hills and rich tribal heritage. Known for historical significance, traditional Naga villages, and the world-famous Hornbill Festival.",
+    "image": "https://etimg.etb2bimg.com/photo/91278276.cms",
+    "temp": "18°C",
+    "tags": [
+      "Safety: High",
+      "Budget per day: ₹4,000 (~$48)"
+    ],
+    "safetyRating": {
+      "daytime": "8.5/10",
+      "nighttime": "7.5/10",
+      "overall": "8/10"
+    },
+    "precautions": [
+      "Carry valid ID proof during travel",
+      "Avoid traveling on isolated roads late at night",
+      "Follow local customs and traditions",
+      "Book accommodations in advance during the Hornbill Festival",
+      "Check weather conditions before trekking"
+    ],
+    "budgetTable": [
+      {
+        "style": "Budget Traveller",
+        "min": "₹4,000 – ₹12,000",
+        "max": "₹20,000"
+      },
+      {
+        "style": "Normal Tourist",
+        "min": "₹15,000 – ₹60,000",
+        "max": "₹1,20,000"
+      },
+      {
+        "style": "Luxury Tourist",
+        "min": "₹1,00,000",
+        "max": "₹5,00,000+"
+      }
+    ],
+    "budgetIncludes": [
+      "Hotel stay",
+      "Food",
+      "Local transport",
+      "Sightseeing",
+      "Cultural activities"
+    ],
+    "activities": [
+      {
+        "name": "Local Sightseeing Taxi",
+        "price": "₹1,500 – ₹6,000"
+      },
+      {
+        "name": "Dzukou Valley Trek",
+        "price": "₹500 – ₹5,000"
+      },
+      {
+        "name": "Local Guide Charges",
+        "price": "₹500 – ₹3,000"
+      },
+      {
+        "name": "Hornbill Festival Entry",
+        "price": "₹100 – ₹1,000"
+      },
+      {
+        "name": "Adventure Activities",
+        "price": "₹1,000 – ₹10,000"
+      }
+    ],
+    "hotels": {
+      "budget": [
+        "Hotel Ariel",
+        "Razhu Pru",
+        "Hotel Japfu",
+        "Hotel Eastgate",
+        "Mechüki Backpackers Hostel"
+      ],
+      "midRange": [
+        "Hotel Vivor",
+        "Cedar Homestay",
+        "Hotel De Oriental Dream",
+        "Maple Homestay",
+        "La Colline Resort"
+      ],
+      "luxury": [
+        "Niraamaya Retreats Aradura Kohima",
+        "Vivor Hotel",
+        "Zone Niathu by The Park",
+        "De Oriental Grand",
+        "Noune Resort"
+      ]
+    },
+    "bestTime": [
+      "October to May → Pleasant weather and sightseeing",
+      "December → Best time for the Hornbill Festival",
+      "June to September → Monsoon season with lush green landscapes"
+    ],
+    "experiences": [
+      "Naga tribal culture exploration",
+      "Hornbill Festival celebrations",
+      "Mountain trekking",
+      "Traditional village visits",
+      "Photography",
+      "Local Naga cuisine",
+      "Historical tourism",
+      "Nature camping"
+    ],
+    "morePlaces": [
+      "Dimapur — Largest city and gateway to Nagaland",
+      "Hornbill Festival — Festival of Festivals showcasing Naga culture",
+      "Dzukou Valley — One of India's most beautiful trekking destinations",
+      "Japfu Peak — Second-highest mountain in Nagaland",
+      "Kohima War Cemetery — WWII memorial site",
+      "Khonoma Village — India's first green village",
+      "Shilloi Lake — Scenic lake near India-Myanmar border"
+    ],
+    "recommendedDuration": "2–3 days for Kohima, 5–7 days for complete Nagaland tour"
+  },
+  {
+    "id": 14,
+    "name": "Loktak Lake",
+    "state": "Manipur",
+    "subtitle": "Floating Paradise",
+    "description": "Largest freshwater lake in Northeast India, globally known for unique floating islands called Phumdis and home to the world's only floating national park.",
+    "image": "https://thesologlobetrotter.com/wp-content/uploads/2019/10/loktak-feature.jpg",
+    "temp": "22°C",
+    "tags": [
+      "Safety: Medium-High",
+      "Budget per day: ₹4,000 (~$48)"
+    ],
+    "safetyRating": {
+      "daytime": "7.5/10",
+      "nighttime": "6.5/10",
+      "overall": "7/10"
+    },
+    "precautions": [
+      "Follow local travel advisories",
+      "Avoid isolated areas after dark",
+      "Travel with local guides for remote destinations",
+      "Keep identity documents handy",
+      "Check weather and road conditions before travel"
+    ],
+    "budgetTable": [
+      {
+        "style": "Budget Traveller",
+        "min": "₹4,000 – ₹10,000",
+        "max": "₹15,000"
+      },
+      {
+        "style": "Normal Tourist",
+        "min": "₹15,000 – ₹50,000",
+        "max": "₹1,00,000"
+      },
+      {
+        "style": "Luxury Tourist",
+        "min": "₹80,000",
+        "max": "₹5,00,000+"
+      }
+    ],
+    "budgetIncludes": [
+      "Hotel stay",
+      "Food",
+      "Local transport",
+      "Sightseeing",
+      "Boating activities"
+    ],
+    "activities": [
+      {
+        "name": "Boat Ride",
+        "price": "₹300 – ₹3,000"
+      },
+      {
+        "name": "Local Sightseeing Taxi",
+        "price": "₹1,500 – ₹6,000"
+      },
+      {
+        "name": "Guide Charges",
+        "price": "₹500 – ₹2,500"
+      },
+      {
+        "name": "Photography Tours",
+        "price": "₹1,000 – ₹5,000"
+      },
+      {
+        "name": "Adventure Activities",
+        "price": "₹1,000 – ₹8,000"
+      }
+    ],
+    "hotels": {
+      "budget": [
+        "Hotel Nirmala",
+        "Hotel Imphal",
+        "Sangai Lodge",
+        "Classic Inn",
+        "Hotel White Palace"
+      ],
+      "midRange": [
+        "Hotel Classic Grande",
+        "Hotel Daani Continental",
+        "Hotel Bheigo",
+        "Hotel Yaiphaba",
+        "The Classic Hotel"
+      ],
+      "luxury": [
+        "Classic Grande Imphal",
+        "Sangai Continental",
+        "The Classic Hotel Premium Wing",
+        "Aurika Resort",
+        "Imphal Resort & Convention Centre"
+      ]
+    },
+    "bestTime": [
+      "October to March → Pleasant weather and sightseeing",
+      "November to February → Best photography and lake views",
+      "April to June → Moderate climate and outdoor activities",
+      "July to September → Monsoon season with lush greenery"
+    ],
+    "experiences": [
+      "Loktak Lake boating",
+      "Floating island exploration",
+      "Bird watching",
+      "Nature photography",
+      "Cultural tourism",
+      "Traditional Manipuri cuisine",
+      "Sunset lake views",
+      "Village tourism"
+    ],
+    "morePlaces": [
+      "Imphal — Capital city with markets and museums",
+      "Keibul Lamjao National Park — World's only floating national park",
+      "Kangla Fort — Historic royal palace of Manipur Kingdom",
+      "Shree Govindajee Temple — Sacred Hindu temple",
+      "Ukhrul — Scenic hill station with Shirui Lily",
+      "INA Memorial — Historic site where INA flag was first hoisted"
+    ],
+    "recommendedDuration": "2–3 days for Loktak Lake, 5–7 days for complete Manipur tour"
+  },
+  {
+    "id": 15,
+    "name": "Aizawl",
+    "state": "Mizoram",
+    "subtitle": "Hilltop Capital",
+    "description": "Capital city of Mizoram at 4,000 feet altitude, known for beautiful hilltop views, clean environment, rich Mizo culture, churches, and pleasant climate.",
+    "image": "https://s7ap1.scene7.com/is/image/incredibleindia/1-solomon-temple-aizwal-mizoram-city-hero?qlt=82&ts=1726674760373",
+    "temp": "20°C",
+    "tags": [
+      "Safety: Very High",
+      "Budget per day: ₹4,500 (~$54)"
+    ],
+    "safetyRating": {
+      "daytime": "9/10",
+      "nighttime": "8.5/10",
+      "overall": "8.8/10"
+    },
+    "precautions": [
+      "Carry light woolen clothes during winter",
+      "Follow local customs and traditions",
+      "Keep cash available in remote areas",
+      "Avoid traveling on hilly roads during heavy rainfall",
+      "Check weather forecasts before long-distance travel"
+    ],
+    "budgetTable": [
+      {
+        "style": "Budget Traveller",
+        "min": "₹5,000 – ₹12,000",
+        "max": "₹20,000"
+      },
+      {
+        "style": "Normal Tourist",
+        "min": "₹15,000 – ₹60,000",
+        "max": "₹1,20,000"
+      },
+      {
+        "style": "Luxury Tourist",
+        "min": "₹1,00,000",
+        "max": "₹5,00,000+"
+      }
+    ],
+    "budgetIncludes": [
+      "Hotel stay",
+      "Food",
+      "Local transport",
+      "Sightseeing",
+      "Cultural activities"
+    ],
+    "activities": [
+      {
+        "name": "Local Sightseeing Taxi",
+        "price": "₹1,500 – ₹6,000"
+      },
+      {
+        "name": "Guided Tour",
+        "price": "₹500 – ₹3,000"
+      },
+      {
+        "name": "Nature Trekking",
+        "price": "₹500 – ₹5,000"
+      },
+      {
+        "name": "Photography Tours",
+        "price": "₹1,000 – ₹5,000"
+      },
+      {
+        "name": "Adventure Activities",
+        "price": "₹1,000 – ₹10,000"
+      }
+    ],
+    "hotels": {
+      "budget": [
+        "Hotel Regency",
+        "Hotel Floria Budget Wing",
+        "Hotel Millennium Centre",
+        "Chawlhna Hotel",
+        "Tourist Lodge Aizawl"
+      ],
+      "midRange": [
+        "Hotel Floria",
+        "Aizawl Hotel",
+        "Hotel Sangchia",
+        "Royale Lalawi Hotel",
+        "Regency Hotel"
+      ],
+      "luxury": [
+        "Hotel Floria Premium Suites",
+        "Royale Lalawi Hotel Premium Wing",
+        "Aizawl Resort",
+        "Tourist Heritage Resort",
+        "Grand Mizoram Resort"
+      ]
+    },
+    "bestTime": [
+      "October to April → Best weather and sightseeing",
+      "November to February → Cool climate and mountain views",
+      "May to September → Monsoon season with lush green landscapes"
+    ],
+    "experiences": [
+      "Hilltop sightseeing",
+      "Cultural tourism",
+      "Nature photography",
+      "Village tourism",
+      "Trekking",
+      "Local Mizo cuisine",
+      "Sunrise and sunset viewpoints",
+      "Shopping for traditional handicrafts"
+    ],
+    "morePlaces": [
+      "Reiek — Popular mountain village for trekking",
+      "Vantawng Falls — Highest waterfall in Mizoram",
+      "Phawngpui Hills — Highest peak in Mizoram (Blue Mountain)",
+      "Tam Dil Lake — Beautiful natural freshwater lake",
+      "Murlen National Park — Amazon of the East",
+      "Champhai — Rice Bowl of Mizoram with Myanmar border views"
+    ],
+    "recommendedDuration": "2–3 days for Aizawl, 5–7 days for complete Mizoram tour"
+  },
+  {
+    "id": 16,
+    "name": "Agartala",
+    "state": "Tripura",
+    "subtitle": "Royal Heritage",
+    "description": "Capital city of Tripura, known for royal palaces, temples, cultural heritage, gardens, and historical attractions. Gateway to all major tourist destinations in Tripura.",
+    "image": "https://s7ap1.scene7.com/is/image/incredibleindia/rudrasagar-lake-melaghar-2-attr-hero?qlt=82&ts=1726651019295",
+    "temp": "25°C",
+    "tags": [
+      "Safety: High",
+      "Budget per day: ₹4,000 (~$48)"
+    ],
+    "safetyRating": {
+      "daytime": "8.8/10",
+      "nighttime": "8/10",
+      "overall": "8.4/10"
+    },
+    "precautions": [
+      "Carry valid ID proof while traveling",
+      "Follow local guidelines at religious sites",
+      "Keep cash available for remote tourist spots",
+      "Avoid isolated areas late at night",
+      "Check weather conditions during monsoon season"
+    ],
+    "budgetTable": [
+      {
+        "style": "Budget Traveller",
+        "min": "₹4,000 – ₹10,000",
+        "max": "₹15,000"
+      },
+      {
+        "style": "Normal Tourist",
+        "min": "₹15,000 – ₹50,000",
+        "max": "₹1,00,000"
+      },
+      {
+        "style": "Luxury Tourist",
+        "min": "₹80,000",
+        "max": "₹5,00,000+"
+      }
+    ],
+    "budgetIncludes": [
+      "Hotel stay",
+      "Food",
+      "Local transport",
+      "Sightseeing",
+      "Entry fees"
+    ],
+    "activities": [
+      {
+        "name": "Local Sightseeing Taxi",
+        "price": "₹1,500 – ₹5,000"
+      },
+      {
+        "name": "Guided Tour",
+        "price": "₹500 – ₹3,000"
+      },
+      {
+        "name": "Wildlife Safari",
+        "price": "₹200 – ₹2,000"
+      },
+      {
+        "name": "Boating at Neermahal",
+        "price": "₹100 – ₹1,000"
+      },
+      {
+        "name": "Photography Tours",
+        "price": "₹500 – ₹5,000"
+      }
+    ],
+    "hotels": {
+      "budget": [
+        "Hotel Sonar Tori",
+        "Hotel Welcome Palace",
+        "Hotel Himalaya",
+        "Hotel Palace Inn",
+        "Hotel City Centre"
+      ],
+      "midRange": [
+        "Ginger Hotel Agartala",
+        "Polo Towers Agartala",
+        "Hotel Woodland Park",
+        "Hotel Royal Inn",
+        "Hotel City Centre Premium"
+      ],
+      "luxury": [
+        "Polo Towers Agartala Premium Suites",
+        "Ginger Hotel Executive Suites",
+        "Royal Heritage Resort",
+        "Grand Tripura Resort",
+        "Heritage Palace Resort"
+      ]
+    },
+    "bestTime": [
+      "October to March → Best weather and sightseeing",
+      "November to February → Pleasant climate and outdoor activities",
+      "April to June → Warm weather but suitable for tourism",
+      "July to September → Monsoon season with lush greenery"
+    ],
+    "experiences": [
+      "Palace tours",
+      "Temple visits",
+      "Wildlife tourism",
+      "Lake boating",
+      "Cultural tourism",
+      "Nature photography",
+      "Hill station sightseeing",
+      "Traditional Tripuri cuisine"
+    ],
+    "morePlaces": [
+      "Ujjayanta Palace — Former royal palace, now state museum",
+      "Neermahal — India's largest water palace in Eastern India",
+      "Tripura Sundari Temple — One of the 51 Shakti Peethas",
+      "Unakoti — Ancient rock-cut sculptures (Angkor Wat of Northeast)",
+      "Sepahijala Wildlife Sanctuary — Famous for clouded leopards",
+      "Jampui Hills — Highest hill range with orange orchards"
+    ],
+    "recommendedDuration": "2–3 days for Agartala, 5–7 days for complete Tripura tour"
   }
 ]

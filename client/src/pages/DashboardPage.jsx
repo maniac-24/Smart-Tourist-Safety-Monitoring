@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { useNavigate } from 'react-router-dom';
 import tajmahal from "../assets/tajmahal.png";
 import destinations from "../data/destinations.json";
 import { MapPin, Search, User, ShieldAlert, AlertTriangle, Phone } from "lucide-react";
@@ -13,6 +14,7 @@ import { startTracking, stopTracking } from '../utils/locationTracker.js';
 import GeofenceAlert from '../components/GeofenceAlert.jsx';
 
 const DashboardPage = () => {
+  const navigate = useNavigate();
   const handleclick = (id) => {
     document.querySelector(id)?.scrollIntoView({
       behavior: 'smooth'

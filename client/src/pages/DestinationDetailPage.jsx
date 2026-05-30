@@ -700,6 +700,617 @@ const destinationDetails = {
             "Assamese food experience",
             "Nature photography"
         ]
+    },
+    10: {
+        name: "Cherrapunji",
+        image: "https://media.holidify.com/images/cmsuploads/compressed/DAWKI_20240327084347.jpg",
+        description: "Cherrapunji (Sohra) is the most famous tourist destination in Meghalaya. It is known worldwide for its breathtaking waterfalls, caves, living root bridges, lush green valleys, and one of the highest rainfall records on Earth.",
+        safetyRating: {
+            daytime: 9,
+            nighttime: 8,
+            overall: 8.8
+        },
+        warnings: [
+            "Roads can be slippery during heavy rain",
+            "Carry rain protection throughout the year",
+            "Follow local guides when visiting caves and root bridges",
+            "Wear trekking shoes for nature trails"
+        ],
+        budgetTable: [
+            { style: "Budget Traveller", min: "₹4,000 – ₹10,000", max: "₹15,000" },
+            { style: "Normal Tourist", min: "₹15,000 – ₹50,000", max: "₹1,00,000" },
+            { style: "Luxury Tourist", min: "₹1,50,000", max: "₹8,00,000+" }
+        ],
+        budgetIncludes: [
+            "Hotel stay",
+            "Food",
+            "Local transport",
+            "Sightseeing",
+            "Trekking activities",
+            "Entry fees"
+        ],
+        hotels: {
+            budget: [
+                "By The Way Hostel & Cafe — backpacker-friendly",
+                "La Kupar Inn — budget stay",
+                "Coniferous Resort — affordable nature resort",
+                "Cherrapunjee Holiday Resort — economical stay",
+                "Polo Orchid Resort — budget-friendly"
+            ],
+            midRange: [
+                "Polo Orchid Resort — comfortable resort",
+                "Jiva Resort — nature resort",
+                "Smoky Falls MaeFi Resort — scenic stay",
+                "Kutmadan Resort — mid-range comfort",
+                "Sa-I-Mika Resort — valley view resort"
+            ],
+            luxury: [
+                "Courtyard by Marriott Shillong — luxury property",
+                "Ri Kynjai Resort — premium lakeside resort",
+                "The Heritage Club Tripura Castle — heritage luxury",
+                "Vivanta Meghalaya — upscale resort"
+            ]
+        },
+        bestTime: "October to April → Best weather and sightseeing. June to September → Spectacular waterfalls but heavy rainfall.",
+        quickTips: [
+            "Carry raincoat and umbrella year-round",
+            "Book local guides for root bridge treks",
+            "Wear comfortable trekking shoes",
+            "Start treks early in the morning",
+            "Keep camera protected from rain",
+            "Try local Khasi cuisine",
+            "Recommended trip: 2-3 days for Cherrapunji, 5-7 days for complete Meghalaya"
+        ],
+        extraInfo: {
+            title: "Entry & Activity Costs",
+            items: [
+                "Living Root Bridge Trek: ₹50 – ₹500",
+                "Cave Exploration: ₹20 – ₹200",
+                "Local Guide: ₹500 – ₹3,000",
+                "Taxi Sightseeing: ₹2,000 – ₹8,000"
+            ]
+        },
+        activities: [
+            "Waterfall photography",
+            "Cave exploration",
+            "Living Root Bridge trekking",
+            "Nature walks",
+            "Village tourism",
+            "Sunrise and sunset viewpoints"
+        ]
+    },
+    11: {
+        name: "Tawang",
+        image: "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-674x446/07/be/fd/1a.jpg",
+        description: "Tawang is the most famous tourist destination in Arunachal Pradesh. Located at an altitude of about 10,000 feet in the Eastern Himalayas, it is known for its snow-covered mountains, Buddhist culture, monasteries, lakes, and breathtaking landscapes.",
+        safetyRating: {
+            daytime: 9,
+            nighttime: 7.5,
+            overall: 8.5
+        },
+        warnings: [
+            "Carry warm clothes throughout the year",
+            "Be prepared for altitude-related issues",
+            "Check weather conditions before mountain travel",
+            "Roads may be affected by snowfall during winter"
+        ],
+        budgetTable: [
+            { style: "Budget Traveller", min: "₹6,000 – ₹15,000", max: "₹25,000" },
+            { style: "Normal Tourist", min: "₹25,000 – ₹80,000", max: "₹1,50,000" },
+            { style: "Luxury Tourist", min: "₹2,00,000", max: "₹10,00,000+" }
+        ],
+        budgetIncludes: [
+            "Hotel stay",
+            "Food",
+            "Local transport",
+            "Sightseeing",
+            "Permit expenses"
+        ],
+        hotels: {
+            budget: [
+                "Hotel Mon Valley — budget-friendly stay",
+                "Hotel Tawang Heights — affordable accommodation",
+                "Yangzom Hotel — economical option"
+            ],
+            midRange: [
+                "Hotel Gakyi Khang Zhang — comfortable mid-range",
+                "Dolma Khangsar Guest House — traditional hospitality",
+                "Hotel Tawang Holiday — good value stay"
+            ],
+            luxury: [
+                "Vivanta Arunachal Pradesh Tawang — premium luxury",
+                "The Oak Retreat — upscale mountain resort"
+            ]
+        },
+        bestTime: "March to June → Pleasant weather and sightseeing. October to November → Clear mountain views. December to February → Snowfall season.",
+        quickTips: [
+            "Obtain Inner Line Permit (ILP) before travel",
+            "Acclimatize properly to high altitude",
+            "Carry sufficient warm clothing",
+            "Book accommodations in advance during peak season",
+            "Hire local guides for monastery visits",
+            "Keep medicines for altitude sickness",
+            "Recommended trip: 3-4 days for Tawang, 7-10 days for complete Arunachal Pradesh"
+        ],
+        extraInfo: {
+            title: "Sightseeing & Activity Costs",
+            items: [
+                "Local Sightseeing Taxi: ₹2,000 – ₹8,000",
+                "Tawang Tour Package: ₹10,000 – ₹50,000",
+                "Guide Charges: ₹500 – ₹3,000",
+                "Adventure Activities: ₹1,000 – ₹10,000"
+            ]
+        },
+        activities: [
+            "Snow mountain sightseeing",
+            "Monastery visits",
+            "Himalayan road trips",
+            "Photography",
+            "Local Monpa culture experience",
+            "High-altitude lake visits"
+        ],
+        morePlaces: [
+            "Tawang Monastery — Largest monastery in India",
+            "Sela Pass — Snow-covered mountain pass",
+            "Ziro Valley — Famous for scenic landscapes and Apatani culture",
+            "Bomdila — Himalayan hill station",
+            "Namdapha National Park — Rich biodiversity and wildlife",
+            "Dirang — Valley views and hot springs",
+            "Roing — Gateway to Eastern Arunachal"
+        ]
+    },
+    12: {
+        name: "Gangtok",
+        image: "https://lh7-rt.googleusercontent.com/docsz/AD_4nXddDBE9WGwjwEju5YcDLbMdOAeZHqlwv1n0injimENzQhiRdm2d4ZiofNDzU-FS5WDPfFzp7Up0KD30Tc2U0ndqYaFwtN3kiALh9IbqmS8Hax57OoAHJQPjNhW-xgaxl7Co65JZCg?key=icOI8u0ZLxczPTUYDDSMduah",
+        description: "Gangtok is the most famous tourist destination in Sikkim. Located in the Eastern Himalayas, it serves as the gateway to Sikkim's beautiful lakes, mountain passes, monasteries, and valleys. It is known for its clean environment, breathtaking views of Mount Kanchenjunga, Buddhist culture, and modern tourist facilities.",
+        safetyRating: {
+            daytime: 9.5,
+            nighttime: 8.5,
+            overall: 9.2
+        },
+        warnings: [
+            "Carry warm clothes, especially during winter",
+            "Follow altitude guidelines while visiting high-altitude locations",
+            "Keep permits ready for restricted areas",
+            "Check weather forecasts before mountain travel",
+            "Avoid unnecessary travel during heavy rainfall and landslides"
+        ],
+        budgetTable: [
+            { style: "Budget Traveller", min: "₹5,000 – ₹15,000", max: "₹25,000" },
+            { style: "Normal Tourist", min: "₹20,000 – ₹80,000", max: "₹1,50,000" },
+            { style: "Luxury Tourist", min: "₹2,00,000", max: "₹10,00,000+" }
+        ],
+        budgetIncludes: [
+            "Hotel stay",
+            "Food",
+            "Local transport",
+            "Sightseeing",
+            "Permit expenses"
+        ],
+        hotels: {
+            budget: [
+                "Hotel Tashi Delek — budget-friendly stay",
+                "The Griffon's Nest — backpacker-friendly",
+                "Hotel Sonam Delek — affordable accommodation",
+                "Hotel Kasturi — economical option",
+                "Hotel Renam — budget stay"
+            ],
+            midRange: [
+                "Summit Golden Crescent Resort — comfortable resort",
+                "Lemon Tree Hotel Gangtok — modern amenities",
+                "Jain Group Hotel Royal Residency — good value",
+                "Netuk House — traditional hospitality",
+                "Muscatel Grand Silk Route — scenic location"
+            ],
+            luxury: [
+                "Mayfair Spa Resort & Casino — premium luxury with spa",
+                "The Elgin Nor-Khill — heritage luxury property",
+                "Vivanta Sikkim Pakyong — upscale mountain resort",
+                "Taj Guras Kutir Resort & Spa — world-class luxury",
+                "Sterling Gangtok Orange Village — premium resort"
+            ]
+        },
+        bestTime: "March to June → Pleasant weather and sightseeing. October to December → Clear Himalayan mountain views. January to February → Snowfall tourism. July to September → Monsoon season with lush greenery.",
+        quickTips: [
+            "Obtain Protected Area Permit (PAP) for restricted areas",
+            "Book Nathula Pass permits in advance (limited daily entries)",
+            "Try the ropeway for panoramic city views",
+            "Visit MG Marg for shopping and local cuisine",
+            "Acclimatize before visiting high-altitude lakes",
+            "Carry valid ID proof for permit verification",
+            "Recommended trip: 3-4 days for Gangtok, 7-10 days for complete Sikkim"
+        ],
+        extraInfo: {
+            title: "Sightseeing & Activity Costs",
+            items: [
+                "Local Sightseeing Taxi: ₹2,000 – ₹8,000",
+                "Tsomgo Lake Tour: ₹1,500 – ₹5,000",
+                "Nathula Pass Tour: ₹3,000 – ₹8,000",
+                "Ropeway Ride: ₹150 – ₹500",
+                "Guide Charges: ₹500 – ₹3,000",
+                "Adventure Activities: ₹1,000 – ₹15,000"
+            ]
+        },
+        activities: [
+            "Kanchenjunga mountain views",
+            "Monastery visits",
+            "Ropeway rides",
+            "Snow tourism",
+            "Yak rides",
+            "Adventure road trips",
+            "Photography",
+            "Local Sikkimese culture and cuisine"
+        ],
+        morePlaces: [
+            "Tsomgo Lake — Glacial lake at 12,300 feet with yak rides",
+            "Nathula Pass — Historic India-China border pass",
+            "Yumthang Valley — Valley of Flowers with colorful blooms",
+            "Gurudongmar Lake — One of the highest lakes at 17,800 feet",
+            "Pelling — Famous for Kanchenjunga views and Skywalk",
+            "Ravangla — Peaceful hill station with Buddha Park",
+            "Rumtek Monastery — Largest monastery in Sikkim"
+        ]
+    },
+    13: {
+        name: "Kohima",
+        image: "https://etimg.etb2bimg.com/photo/91278276.cms",
+        description: "Kohima is the most famous tourist destination in Nagaland and serves as the cultural capital of the state. Surrounded by green hills and rich tribal heritage, Kohima is known for its historical significance, beautiful landscapes, traditional Naga villages, and the world-famous Hornbill Festival.",
+        safetyRating: {
+            daytime: 8.5,
+            nighttime: 7.5,
+            overall: 8
+        },
+        warnings: [
+            "Carry valid ID proof during travel",
+            "Avoid traveling on isolated roads late at night",
+            "Follow local customs and traditions",
+            "Book accommodations in advance during the Hornbill Festival",
+            "Check weather conditions before trekking"
+        ],
+        budgetTable: [
+            { style: "Budget Traveller", min: "₹4,000 – ₹12,000", max: "₹20,000" },
+            { style: "Normal Tourist", min: "₹15,000 – ₹60,000", max: "₹1,20,000" },
+            { style: "Luxury Tourist", min: "₹1,00,000", max: "₹5,00,000+" }
+        ],
+        budgetIncludes: [
+            "Hotel stay",
+            "Food",
+            "Local transport",
+            "Sightseeing",
+            "Cultural activities"
+        ],
+        hotels: {
+            budget: [
+                "Hotel Ariel — budget-friendly stay",
+                "Razhu Pru — affordable accommodation",
+                "Hotel Japfu — economical option",
+                "Hotel Eastgate — budget stay",
+                "Mechüki Backpackers Hostel — backpacker-friendly"
+            ],
+            midRange: [
+                "Hotel Vivor — comfortable mid-range",
+                "Cedar Homestay — traditional hospitality",
+                "Hotel De Oriental Dream — good value",
+                "Maple Homestay — cozy stay",
+                "La Colline Resort — scenic location"
+            ],
+            luxury: [
+                "Niraamaya Retreats Aradura Kohima — premium luxury",
+                "Vivor Hotel — upscale comfort",
+                "Zone Niathu by The Park — modern luxury",
+                "De Oriental Grand — grand experience",
+                "Noune Resort — luxury resort"
+            ]
+        },
+        bestTime: "October to May → Pleasant weather and sightseeing. December → Best time for the Hornbill Festival. June to September → Monsoon season with lush green landscapes.",
+        quickTips: [
+            "Visit during December for the Hornbill Festival experience",
+            "Respect local Naga customs and traditions",
+            "Try authentic Naga cuisine",
+            "Book guides for village visits",
+            "Carry warm clothes for evening temperatures",
+            "Visit Kohima War Cemetery for historical significance",
+            "Recommended trip: 2-3 days for Kohima, 5-7 days for complete Nagaland"
+        ],
+        extraInfo: {
+            title: "Sightseeing & Activity Costs",
+            items: [
+                "Local Sightseeing Taxi: ₹1,500 – ₹6,000",
+                "Dzukou Valley Trek: ₹500 – ₹5,000",
+                "Local Guide Charges: ₹500 – ₹3,000",
+                "Hornbill Festival Entry: ₹100 – ₹1,000",
+                "Adventure Activities: ₹1,000 – ₹10,000"
+            ]
+        },
+        activities: [
+            "Naga tribal culture exploration",
+            "Hornbill Festival celebrations",
+            "Mountain trekking",
+            "Traditional village visits",
+            "Photography",
+            "Local Naga cuisine",
+            "Historical tourism",
+            "Nature camping"
+        ],
+        morePlaces: [
+            "Dimapur — Largest city and gateway to Nagaland",
+            "Hornbill Festival — Festival of Festivals showcasing Naga culture",
+            "Dzukou Valley — One of India's most beautiful trekking destinations",
+            "Japfu Peak — Second-highest mountain in Nagaland",
+            "Kohima War Cemetery — WWII memorial site",
+            "Khonoma Village — India's first green village",
+            "Shilloi Lake — Scenic lake near India-Myanmar border"
+        ]
+    },
+    14: {
+        name: "Loktak Lake",
+        image: "https://thesologlobetrotter.com/wp-content/uploads/2019/10/loktak-feature.jpg",
+        description: "Loktak Lake is the most famous tourist destination in Manipur and the largest freshwater lake in Northeast India. It is globally known for its unique floating islands called Phumdis and its breathtaking natural beauty. The lake is also home to the world's only floating national park, Keibul Lamjao National Park.",
+        safetyRating: {
+            daytime: 7.5,
+            nighttime: 6.5,
+            overall: 7
+        },
+        warnings: [
+            "Follow local travel advisories",
+            "Avoid isolated areas after dark",
+            "Travel with local guides for remote destinations",
+            "Keep identity documents handy",
+            "Check weather and road conditions before travel"
+        ],
+        budgetTable: [
+            { style: "Budget Traveller", min: "₹4,000 – ₹10,000", max: "₹15,000" },
+            { style: "Normal Tourist", min: "₹15,000 – ₹50,000", max: "₹1,00,000" },
+            { style: "Luxury Tourist", min: "₹80,000", max: "₹5,00,000+" }
+        ],
+        budgetIncludes: [
+            "Hotel stay",
+            "Food",
+            "Local transport",
+            "Sightseeing",
+            "Boating activities"
+        ],
+        hotels: {
+            budget: [
+                "Hotel Nirmala — budget-friendly stay",
+                "Hotel Imphal — affordable accommodation",
+                "Sangai Lodge — economical option",
+                "Classic Inn — budget stay",
+                "Hotel White Palace — affordable hotel"
+            ],
+            midRange: [
+                "Hotel Classic Grande — comfortable mid-range",
+                "Hotel Daani Continental — good value",
+                "Hotel Bheigo — modern amenities",
+                "Hotel Yaiphaba — traditional hospitality",
+                "The Classic Hotel — quality stay"
+            ],
+            luxury: [
+                "Classic Grande Imphal — premium luxury",
+                "Sangai Continental — upscale comfort",
+                "The Classic Hotel Premium Wing — luxury wing",
+                "Aurika Resort — premium resort",
+                "Imphal Resort & Convention Centre — luxury resort"
+            ]
+        },
+        bestTime: "October to March → Pleasant weather and sightseeing. November to February → Best photography and lake views. April to June → Moderate climate and outdoor activities. July to September → Monsoon season with lush greenery.",
+        quickTips: [
+            "Take a boat ride to explore the floating islands (Phumdis)",
+            "Visit Keibul Lamjao National Park to see Sangai Deer",
+            "Best photography during sunrise and sunset",
+            "Try traditional Manipuri cuisine in Imphal",
+            "Hire local guides for better lake exploration",
+            "Carry binoculars for bird watching",
+            "Recommended trip: 2-3 days for Loktak Lake, 5-7 days for complete Manipur"
+        ],
+        extraInfo: {
+            title: "Sightseeing & Activity Costs",
+            items: [
+                "Boat Ride: ₹300 – ₹3,000",
+                "Local Sightseeing Taxi: ₹1,500 – ₹6,000",
+                "Guide Charges: ₹500 – ₹2,500",
+                "Photography Tours: ₹1,000 – ₹5,000",
+                "Adventure Activities: ₹1,000 – ₹8,000"
+            ]
+        },
+        activities: [
+            "Loktak Lake boating",
+            "Floating island exploration",
+            "Bird watching",
+            "Nature photography",
+            "Cultural tourism",
+            "Traditional Manipuri cuisine",
+            "Sunset lake views",
+            "Village tourism"
+        ],
+        morePlaces: [
+            "Imphal — Capital city with markets and museums",
+            "Keibul Lamjao National Park — World's only floating national park",
+            "Kangla Fort — Historic royal palace of Manipur Kingdom",
+            "Shree Govindajee Temple — Sacred Hindu temple",
+            "Ukhrul — Scenic hill station with Shirui Lily",
+            "INA Memorial — Historic site where INA flag was first hoisted"
+        ]
+    },
+    15: {
+        name: "Aizawl",
+        image: "https://s7ap1.scene7.com/is/image/incredibleindia/1-solomon-temple-aizwal-mizoram-city-hero?qlt=82&ts=1726674760373",
+        description: "Aizawl is the most famous tourist destination in Mizoram and the capital city of the state. Located at an altitude of about 4,000 feet above sea level, Aizawl is known for its beautiful hilltop views, clean environment, rich Mizo culture, churches, and pleasant climate. It serves as the gateway to most tourist attractions in Mizoram.",
+        safetyRating: {
+            daytime: 9,
+            nighttime: 8.5,
+            overall: 8.8
+        },
+        warnings: [
+            "Carry light woolen clothes during winter",
+            "Follow local customs and traditions",
+            "Keep cash available in remote areas",
+            "Avoid traveling on hilly roads during heavy rainfall",
+            "Check weather forecasts before long-distance travel"
+        ],
+        budgetTable: [
+            { style: "Budget Traveller", min: "₹5,000 – ₹12,000", max: "₹20,000" },
+            { style: "Normal Tourist", min: "₹15,000 – ₹60,000", max: "₹1,20,000" },
+            { style: "Luxury Tourist", min: "₹1,00,000", max: "₹5,00,000+" }
+        ],
+        budgetIncludes: [
+            "Hotel stay",
+            "Food",
+            "Local transport",
+            "Sightseeing",
+            "Cultural activities"
+        ],
+        hotels: {
+            budget: [
+                "Hotel Regency — budget-friendly stay",
+                "Hotel Floria Budget Wing — affordable accommodation",
+                "Hotel Millennium Centre — economical option",
+                "Chawlhna Hotel — budget stay",
+                "Tourist Lodge Aizawl — government lodge"
+            ],
+            midRange: [
+                "Hotel Floria — comfortable mid-range",
+                "Aizawl Hotel — good value",
+                "Hotel Sangchia — modern amenities",
+                "Royale Lalawi Hotel — quality stay",
+                "Regency Hotel — traditional hospitality"
+            ],
+            luxury: [
+                "Hotel Floria Premium Suites — premium luxury",
+                "Royale Lalawi Hotel Premium Wing — upscale comfort",
+                "Aizawl Resort — luxury resort",
+                "Tourist Heritage Resort — heritage property",
+                "Grand Mizoram Resort — grand experience"
+            ]
+        },
+        bestTime: "October to April → Best weather and sightseeing. November to February → Cool climate and mountain views. May to September → Monsoon season with lush green landscapes.",
+        quickTips: [
+            "Visit Solomon's Temple for panoramic city views",
+            "Explore local markets for traditional Mizo handicrafts",
+            "Try authentic Mizo cuisine like Bai and Vawksa",
+            "Respect local customs and church timings",
+            "Hire local guides for village tourism",
+            "Best photography during sunrise and sunset",
+            "Recommended trip: 2-3 days for Aizawl, 5-7 days for complete Mizoram"
+        ],
+        extraInfo: {
+            title: "Sightseeing & Activity Costs",
+            items: [
+                "Local Sightseeing Taxi: ₹1,500 – ₹6,000",
+                "Guided Tour: ₹500 – ₹3,000",
+                "Nature Trekking: ₹500 – ₹5,000",
+                "Photography Tours: ₹1,000 – ₹5,000",
+                "Adventure Activities: ₹1,000 – ₹10,000"
+            ]
+        },
+        activities: [
+            "Hilltop sightseeing",
+            "Cultural tourism",
+            "Nature photography",
+            "Village tourism",
+            "Trekking",
+            "Local Mizo cuisine",
+            "Sunrise and sunset viewpoints",
+            "Shopping for traditional handicrafts"
+        ],
+        morePlaces: [
+            "Reiek — Popular mountain village for trekking",
+            "Vantawng Falls — Highest waterfall in Mizoram",
+            "Phawngpui Hills — Highest peak in Mizoram (Blue Mountain)",
+            "Tam Dil Lake — Beautiful natural freshwater lake",
+            "Murlen National Park — Amazon of the East",
+            "Champhai — Rice Bowl of Mizoram with Myanmar border views"
+        ]
+    },
+    16: {
+        name: "Agartala",
+        image: "https://s7ap1.scene7.com/is/image/incredibleindia/rudrasagar-lake-melaghar-2-attr-hero?qlt=82&ts=1726651019295",
+        description: "Agartala is the most famous tourist destination in Tripura and the capital city of the state. It is known for its royal palaces, temples, cultural heritage, gardens, and historical attractions. Agartala serves as the gateway to all major tourist destinations in Tripura.",
+        safetyRating: {
+            daytime: 8.8,
+            nighttime: 8,
+            overall: 8.4
+        },
+        warnings: [
+            "Carry valid ID proof while traveling",
+            "Follow local guidelines at religious sites",
+            "Keep cash available for remote tourist spots",
+            "Avoid isolated areas late at night",
+            "Check weather conditions during monsoon season"
+        ],
+        budgetTable: [
+            { style: "Budget Traveller", min: "₹4,000 – ₹10,000", max: "₹15,000" },
+            { style: "Normal Tourist", min: "₹15,000 – ₹50,000", max: "₹1,00,000" },
+            { style: "Luxury Tourist", min: "₹80,000", max: "₹5,00,000+" }
+        ],
+        budgetIncludes: [
+            "Hotel stay",
+            "Food",
+            "Local transport",
+            "Sightseeing",
+            "Entry fees"
+        ],
+        hotels: {
+            budget: [
+                "Hotel Sonar Tori — budget-friendly stay",
+                "Hotel Welcome Palace — affordable accommodation",
+                "Hotel Himalaya — economical option",
+                "Hotel Palace Inn — budget stay",
+                "Hotel City Centre — affordable hotel"
+            ],
+            midRange: [
+                "Ginger Hotel Agartala — comfortable mid-range",
+                "Polo Towers Agartala — good value",
+                "Hotel Woodland Park — modern amenities",
+                "Hotel Royal Inn — quality stay",
+                "Hotel City Centre Premium — premium comfort"
+            ],
+            luxury: [
+                "Polo Towers Agartala Premium Suites — premium luxury",
+                "Ginger Hotel Executive Suites — upscale comfort",
+                "Royal Heritage Resort — heritage property",
+                "Grand Tripura Resort — grand experience",
+                "Heritage Palace Resort — luxury resort"
+            ]
+        },
+        bestTime: "October to March → Best weather and sightseeing. November to February → Pleasant climate and outdoor activities. April to June → Warm weather but suitable for tourism. July to September → Monsoon season with lush greenery.",
+        quickTips: [
+            "Visit Ujjayanta Palace for royal heritage experience",
+            "Take a boat ride at Neermahal water palace",
+            "Explore Tripura Sundari Temple (Matabari)",
+            "Visit Unakoti for ancient rock-cut sculptures",
+            "Try traditional Tripuri cuisine",
+            "Best time for wildlife safari at Sepahijala",
+            "Recommended trip: 2-3 days for Agartala, 5-7 days for complete Tripura"
+        ],
+        extraInfo: {
+            title: "Sightseeing & Activity Costs",
+            items: [
+                "Local Sightseeing Taxi: ₹1,500 – ₹5,000",
+                "Guided Tour: ₹500 – ₹3,000",
+                "Wildlife Safari: ₹200 – ₹2,000",
+                "Boating at Neermahal: ₹100 – ₹1,000",
+                "Photography Tours: ₹500 – ₹5,000"
+            ]
+        },
+        activities: [
+            "Palace tours",
+            "Temple visits",
+            "Wildlife tourism",
+            "Lake boating",
+            "Cultural tourism",
+            "Nature photography",
+            "Hill station sightseeing",
+            "Traditional Tripuri cuisine"
+        ],
+        morePlaces: [
+            "Ujjayanta Palace — Former royal palace, now state museum",
+            "Neermahal — India's largest water palace in Eastern India",
+            "Tripura Sundari Temple — One of the 51 Shakti Peethas",
+            "Unakoti — Ancient rock-cut sculptures (Angkor Wat of Northeast)",
+            "Sepahijala Wildlife Sanctuary — Famous for clouded leopards",
+            "Jampui Hills — Highest hill range with orange orchards"
+        ]
     }
 };
 
@@ -713,7 +1324,19 @@ export default function DestinationDetailPage() {
         if (detail) {
             setDestination(detail);
         }
+        // Scroll to top when destination changes
+        window.scrollTo(0, 0);
     }, [id]);
+
+    // Determine back navigation based on destination ID
+    const handleBackClick = () => {
+        // IDs 9+ are North-East destinations
+        if (parseInt(id) >= 9) {
+            navigate("/northeast-destinations");
+        } else {
+            navigate("/dashboard");
+        }
+    };
 
     if (!destination) {
         return (
@@ -728,11 +1351,11 @@ export default function DestinationDetailPage() {
             <div className="container mx-auto px-4 py-8">
                 {/* Back Button */}
                 <button
-                    onClick={() => navigate("/dashboard")}
+                    onClick={handleBackClick}
                     className="flex items-center gap-2 text-blue-400 hover:text-blue-300 mb-6"
                 >
                     <ArrowLeft size={20} />
-                    Back to Dashboard
+                    Back
                 </button>
 
                 {/* Hero Image - Full Taj Mahal Visible */}
@@ -910,7 +1533,7 @@ export default function DestinationDetailPage() {
                 )}
 
                 {/* Quick Tips */}
-                <div className="bg-blue-900/20 border border-blue-700 rounded-xl p-6">
+                <div className="bg-blue-900/20 border border-blue-700 rounded-xl p-6 mb-6">
                     <h2 className="text-2xl font-bold mb-4 text-blue-400">Quick Tourist Tips</h2>
                     <ul className="space-y-2">
                         {destination.quickTips.map((tip, index) => (
@@ -921,6 +1544,304 @@ export default function DestinationDetailPage() {
                         ))}
                     </ul>
                 </div>
+
+                {/* More Places to Visit (Only for North-East destinations) */}
+                {parseInt(id) === 9 && (
+                    <div className="bg-gray-800 rounded-xl p-6">
+                        <h2 className="text-2xl font-bold mb-4 text-green-400">More Places You Can Visit in Assam</h2>
+                        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">🏔️</span>
+                                <p className="text-white font-semibold">Guwahati</p>
+                                <p className="text-gray-400 text-sm">Temples & Brahmaputra</p>
+                            </div>
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">🏝️</span>
+                                <p className="text-white font-semibold">Majuli Island</p>
+                                <p className="text-gray-400 text-sm">Largest river island</p>
+                            </div>
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">🌿</span>
+                                <p className="text-white font-semibold">Manas National Park</p>
+                                <p className="text-gray-400 text-sm">Wildlife sanctuary</p>
+                            </div>
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">🏛️</span>
+                                <p className="text-white font-semibold">Sivasagar</p>
+                                <p className="text-gray-400 text-sm">Ahom dynasty monuments</p>
+                            </div>
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">🍵</span>
+                                <p className="text-white font-semibold">Tea Gardens</p>
+                                <p className="text-gray-400 text-sm">Assam tea estates</p>
+                            </div>
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">🛕</span>
+                                <p className="text-white font-semibold">Kamakhya Temple</p>
+                                <p className="text-gray-400 text-sm">Sacred Hindu temple</p>
+                            </div>
+                        </div>
+                    </div>
+                )}
+                {parseInt(id) === 10 && (
+                    <div className="bg-gray-800 rounded-xl p-6">
+                        <h2 className="text-2xl font-bold mb-4 text-green-400">More Places You Can Visit in Meghalaya</h2>
+                        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">🏔️</span>
+                                <p className="text-white font-semibold">Shillong</p>
+                                <p className="text-gray-400 text-sm">Scotland of the East</p>
+                            </div>
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">🚣</span>
+                                <p className="text-white font-semibold">Dawki River</p>
+                                <p className="text-gray-400 text-sm">Crystal-clear boating</p>
+                            </div>
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">🌉</span>
+                                <p className="text-white font-semibold">Living Root Bridges</p>
+                                <p className="text-gray-400 text-sm">Natural wonders</p>
+                            </div>
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">💧</span>
+                                <p className="text-white font-semibold">Nohkalikai Falls</p>
+                                <p className="text-gray-400 text-sm">Tallest plunge waterfall</p>
+                            </div>
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">🕳️</span>
+                                <p className="text-white font-semibold">Mawsmai Cave</p>
+                                <p className="text-gray-400 text-sm">Limestone caves</p>
+                            </div>
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">🏞️</span>
+                                <p className="text-white font-semibold">Laitlum Canyons</p>
+                                <p className="text-gray-400 text-sm">Scenic viewpoints</p>
+                            </div>
+                        </div>
+                    </div>
+                )}
+                {parseInt(id) === 11 && (
+                    <div className="bg-gray-800 rounded-xl p-6">
+                        <h2 className="text-2xl font-bold mb-4 text-green-400">More Places You Can Visit in Arunachal Pradesh</h2>
+                        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">🛕</span>
+                                <p className="text-white font-semibold">Tawang Monastery</p>
+                                <p className="text-gray-400 text-sm">Largest in India</p>
+                            </div>
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">🏔️</span>
+                                <p className="text-white font-semibold">Sela Pass</p>
+                                <p className="text-gray-400 text-sm">Snow-covered pass</p>
+                            </div>
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">🌾</span>
+                                <p className="text-white font-semibold">Ziro Valley</p>
+                                <p className="text-gray-400 text-sm">Apatani culture</p>
+                            </div>
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">🏞️</span>
+                                <p className="text-white font-semibold">Bomdila</p>
+                                <p className="text-gray-400 text-sm">Himalayan hill station</p>
+                            </div>
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">🐅</span>
+                                <p className="text-white font-semibold">Namdapha National Park</p>
+                                <p className="text-gray-400 text-sm">Rich biodiversity</p>
+                            </div>
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">♨️</span>
+                                <p className="text-white font-semibold">Dirang</p>
+                                <p className="text-gray-400 text-sm">Hot springs & valleys</p>
+                            </div>
+                        </div>
+                    </div>
+                )}
+                {parseInt(id) === 12 && (
+                    <div className="bg-gray-800 rounded-xl p-6">
+                        <h2 className="text-2xl font-bold mb-4 text-green-400">More Places You Can Visit in Sikkim</h2>
+                        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">🏔️</span>
+                                <p className="text-white font-semibold">Tsomgo Lake</p>
+                                <p className="text-gray-400 text-sm">Glacial lake at 12,300 ft</p>
+                            </div>
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">🛂</span>
+                                <p className="text-white font-semibold">Nathula Pass</p>
+                                <p className="text-gray-400 text-sm">India-China border</p>
+                            </div>
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">🌸</span>
+                                <p className="text-white font-semibold">Yumthang Valley</p>
+                                <p className="text-gray-400 text-sm">Valley of Flowers</p>
+                            </div>
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">💧</span>
+                                <p className="text-white font-semibold">Gurudongmar Lake</p>
+                                <p className="text-gray-400 text-sm">17,800 ft altitude</p>
+                            </div>
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">🌉</span>
+                                <p className="text-white font-semibold">Pelling</p>
+                                <p className="text-gray-400 text-sm">Skywalk & views</p>
+                            </div>
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">🛕</span>
+                                <p className="text-white font-semibold">Rumtek Monastery</p>
+                                <p className="text-gray-400 text-sm">Largest in Sikkim</p>
+                            </div>
+                        </div>
+                    </div>
+                )}
+                {parseInt(id) === 13 && (
+                    <div className="bg-gray-800 rounded-xl p-6">
+                        <h2 className="text-2xl font-bold mb-4 text-green-400">More Places You Can Visit in Nagaland</h2>
+                        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">🏙️</span>
+                                <p className="text-white font-semibold">Dimapur</p>
+                                <p className="text-gray-400 text-sm">Gateway to Nagaland</p>
+                            </div>
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">🎭</span>
+                                <p className="text-white font-semibold">Hornbill Festival</p>
+                                <p className="text-gray-400 text-sm">Festival of Festivals</p>
+                            </div>
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">🌸</span>
+                                <p className="text-white font-semibold">Dzukou Valley</p>
+                                <p className="text-gray-400 text-sm">Beautiful trekking</p>
+                            </div>
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">⛰️</span>
+                                <p className="text-white font-semibold">Japfu Peak</p>
+                                <p className="text-gray-400 text-sm">Second-highest peak</p>
+                            </div>
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">🪖</span>
+                                <p className="text-white font-semibold">Kohima War Cemetery</p>
+                                <p className="text-gray-400 text-sm">WWII memorial</p>
+                            </div>
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">🌿</span>
+                                <p className="text-white font-semibold">Khonoma Village</p>
+                                <p className="text-gray-400 text-sm">First green village</p>
+                            </div>
+                        </div>
+                    </div>
+                )}
+                {parseInt(id) === 14 && (
+                    <div className="bg-gray-800 rounded-xl p-6">
+                        <h2 className="text-2xl font-bold mb-4 text-green-400">More Places You Can Visit in Manipur</h2>
+                        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">🏙️</span>
+                                <p className="text-white font-semibold">Imphal</p>
+                                <p className="text-gray-400 text-sm">Capital city</p>
+                            </div>
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">🦌</span>
+                                <p className="text-white font-semibold">Keibul Lamjao Park</p>
+                                <p className="text-gray-400 text-sm">Floating national park</p>
+                            </div>
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">🏰</span>
+                                <p className="text-white font-semibold">Kangla Fort</p>
+                                <p className="text-gray-400 text-sm">Historic royal palace</p>
+                            </div>
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">🛕</span>
+                                <p className="text-white font-semibold">Govindajee Temple</p>
+                                <p className="text-gray-400 text-sm">Sacred Hindu temple</p>
+                            </div>
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">🌺</span>
+                                <p className="text-white font-semibold">Ukhrul</p>
+                                <p className="text-gray-400 text-sm">Shirui Lily hill station</p>
+                            </div>
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">🪖</span>
+                                <p className="text-white font-semibold">INA Memorial</p>
+                                <p className="text-gray-400 text-sm">Historic INA site</p>
+                            </div>
+                        </div>
+                    </div>
+                )}
+                {parseInt(id) === 15 && (
+                    <div className="bg-gray-800 rounded-xl p-6">
+                        <h2 className="text-2xl font-bold mb-4 text-green-400">More Places You Can Visit in Mizoram</h2>
+                        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">⛰️</span>
+                                <p className="text-white font-semibold">Reiek</p>
+                                <p className="text-gray-400 text-sm">Mountain village</p>
+                            </div>
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">💧</span>
+                                <p className="text-white font-semibold">Vantawng Falls</p>
+                                <p className="text-gray-400 text-sm">Highest waterfall</p>
+                            </div>
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">🏔️</span>
+                                <p className="text-white font-semibold">Phawngpui Hills</p>
+                                <p className="text-gray-400 text-sm">Blue Mountain peak</p>
+                            </div>
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">🏞️</span>
+                                <p className="text-white font-semibold">Tam Dil Lake</p>
+                                <p className="text-gray-400 text-sm">Freshwater lake</p>
+                            </div>
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">🌿</span>
+                                <p className="text-white font-semibold">Murlen National Park</p>
+                                <p className="text-gray-400 text-sm">Amazon of the East</p>
+                            </div>
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">🌾</span>
+                                <p className="text-white font-semibold">Champhai</p>
+                                <p className="text-gray-400 text-sm">Rice Bowl of Mizoram</p>
+                            </div>
+                        </div>
+                    </div>
+                )}
+                {parseInt(id) === 16 && (
+                    <div className="bg-gray-800 rounded-xl p-6">
+                        <h2 className="text-2xl font-bold mb-4 text-green-400">More Places You Can Visit in Tripura</h2>
+                        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">🏛️</span>
+                                <p className="text-white font-semibold">Ujjayanta Palace</p>
+                                <p className="text-gray-400 text-sm">Royal palace museum</p>
+                            </div>
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">🏰</span>
+                                <p className="text-white font-semibold">Neermahal</p>
+                                <p className="text-gray-400 text-sm">Water palace</p>
+                            </div>
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">🛕</span>
+                                <p className="text-white font-semibold">Tripura Sundari Temple</p>
+                                <p className="text-gray-400 text-sm">Shakti Peetha</p>
+                            </div>
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">🗿</span>
+                                <p className="text-white font-semibold">Unakoti</p>
+                                <p className="text-gray-400 text-sm">Rock-cut sculptures</p>
+                            </div>
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">🐆</span>
+                                <p className="text-white font-semibold">Sepahijala Sanctuary</p>
+                                <p className="text-gray-400 text-sm">Clouded leopards</p>
+                            </div>
+                            <div className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition">
+                                <span className="text-3xl mb-2 block">🏔️</span>
+                                <p className="text-white font-semibold">Jampui Hills</p>
+                                <p className="text-gray-400 text-sm">Orange orchards</p>
+                            </div>
+                        </div>
+                    </div>
+                )}
             </div>
         </div>
     );
